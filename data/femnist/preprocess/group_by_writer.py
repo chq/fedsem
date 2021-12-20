@@ -19,7 +19,7 @@ for (w, f, c) in write_class:
     if w != cw:
         writers.append((cw, cimages))
         cw = w
-        cimages = [(f, c)]
+        cimages = []
     cimages.append((f, c))
 writers.append((cw, cimages))
 
